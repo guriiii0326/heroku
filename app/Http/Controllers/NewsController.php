@@ -19,7 +19,7 @@ class NewsController extends Controller
             $headline = null;
         }
     
-    return view('news.index',['headline' => $headline,'posts' => $posts]);
+    return view('layouts.news.index',['headline' => $headline,'posts' => $posts]);
 
     }
 }
