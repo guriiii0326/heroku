@@ -36,6 +36,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'NewsController@index');
+Route::get('/news', 'NewsController@index');
 
 Route::get('/profile', 'ProfileController@index');
